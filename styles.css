@@ -1,55 +1,26 @@
 /*  your css code here. If applicable */
-#a1{
+#outer{
 	height:300px;
 	width:300px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
 	border-radius:50%;
-	background:#ff0000;		
+	background:rgb(255, 165, 0);		
+	border: 25px solid rgb(255, 0, 0);
 }
-#a2{
-	height:250px;
-	width:250px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	border-radius:50%;
-	background:#ffa500;		
-}
-#a3{
+#middle{
 	height:200px;
 	width:200px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
 	border-radius:50%;
-	background:#ffff00;		
+	background:rgb(0, 128, 0);	
+	border:25px solid rgb(255, 255, 0);
+	margin:25px;
 }
-#a4{
-	height:150px;
-	width:150px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	border-radius:50%;
-	background:#008000;		
-}
-#a5{
+#inner{
 	height:100px;
 	width:100px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
 	border-radius:50%;
-	background:#0000ff;		
+	background:rgb(128, 0, 128);	
+	margin:25px;
+	border:25px solid rgb(0, 0, 255);
+	
 }
-#a6{
-	height:50px;
-	width:50px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	border-radius:50%;
-	background:#800080;		
-}
+
